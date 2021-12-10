@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+}
+
+.container{
+    height:100vh;
+    min-height:max-content;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+body{
+    background-image:url(../img/Untitled\ design\ \(1\).jpg);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.img-wrapper{
+    width:270px;
+    height:auto;
+    border-radius:5px;
+}
