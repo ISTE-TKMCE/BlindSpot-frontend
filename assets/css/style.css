@@ -1,0 +1,143 @@
+/* General CSS Setup */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+}
+
+body{
+    background-color: lightblue;
+    font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+    overflow-x:hidden;
+    width:100%;
+  }
+  html{
+      overflow-x:hidden;
+  }
+  .container {
+    min-height:100vh;
+    height:max-content;
+    overflow-x:hidden;
+  }
+  
+
+  .talk-bubble-l {
+      margin-left: 40px;
+    margin-top:0px;
+    margin-right:0px;
+    display: inline-block;
+    position: relative;
+      width: 200px;
+      height: auto;
+      background-color: lightyellow;
+  }
+
+  .talk-bubble-r {
+      margin:40px;
+      margin-left:140px;
+      margin-right:0;
+  display: inline-block;
+  position: relative;
+    width: 200px;
+    height: auto;
+    background-color: lightyellow;
+}
+
+  .title-bubble {
+    margin: 40px;
+  margin-right:0px;
+  display: inline-block;
+  position: relative;
+    width: 270px;
+    height: auto;
+    background-color: lightyellow;
+}
+
+  .round{
+    border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+  
+  }
+ 
+  .tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+    z-index:-1;
+}
+
+  .tri-right.right-in:after{
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: auto;
+      right: -20px;
+    top: 38px;
+      bottom: auto;
+      border: 12px solid;
+      border-color: lightyellow transparent transparent lightyellow;
+    z-index:-1;
+
+  }
+  
+
+  
+  /* talk bubble contents */
+  .talktext{
+    padding: 1em;
+      text-align: left;
+    line-height: 1.5em;
+  }
+
+  .talktext p{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+
+  .char-img-r{
+      position:absolute;
+      right:-70px;
+      top:30%;
+      transform:translateY(-30%);
+      border-radius:50%;
+      
+
+  }
+  .char-img-l{
+    position:absolute;
+    left:-70px;
+    top:30%;
+    transform:translateY(-30%);
+    border-radius:50%;
+    
+
+}
+
+  .char-img-r img, .char-img-l img{
+      display:block;
+      height:50px;
+      width:50px;
+      border-radius:50%;
+      right:0;
+      transition-duration:0.6s;
+      z-index:1000;
+  }
+
+  .char-img-r img:hover, .char-img-l img:hover{
+      transform:scale(2);
+      z-index:1000;
+
+  }
