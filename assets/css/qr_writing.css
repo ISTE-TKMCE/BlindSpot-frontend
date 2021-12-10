@@ -11,3 +11,13 @@
     display:flex;
     justify-content:center;
 }
+body{
+    background-image:url(../img/Untitled\ design\ \(1\).jpg);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.table{
+    color:white;
+}

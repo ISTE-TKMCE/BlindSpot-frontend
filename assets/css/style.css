@@ -7,12 +7,21 @@
     position:relative;
 }
 
-body{
-    background-color: lightblue;
+
+  body{
     font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
     overflow-x:hidden;
     width:100%;
-  }
+    background-image:url(../img/Untitled\ design\ \(1\).jpg);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.container{
+    min-height:100vh;
+    width:100%;
+}
   html{
       overflow-x:hidden;
   }
@@ -31,7 +40,7 @@ body{
     position: relative;
       width: 200px;
       height: auto;
-      background-color: lightyellow;
+      background-color: #000;
   }
 
   .talk-bubble-r {
@@ -42,7 +51,7 @@ body{
   position: relative;
     width: 200px;
     height: auto;
-    background-color: lightyellow;
+    background-color: #000;
 }
 
   .title-bubble {
@@ -52,7 +61,7 @@ body{
   position: relative;
     width: 270px;
     height: auto;
-    background-color: lightyellow;
+    background-color: #000;
 }
 
   .round{
@@ -72,7 +81,7 @@ body{
   top: 38px;
 	bottom: auto;
 	border: 12px solid;
-	border-color: lightyellow lightyellow transparent transparent;
+	border-color: #000 #000 transparent transparent;
     z-index:-1;
 }
 
@@ -86,7 +95,7 @@ body{
     top: 38px;
       bottom: auto;
       border: 12px solid;
-      border-color: lightyellow transparent transparent lightyellow;
+      border-color: #000 transparent transparent #000;
     z-index:-1;
 
   }
