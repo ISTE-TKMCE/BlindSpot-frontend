@@ -16,6 +16,9 @@ body{
     background-size:cover;
     background-position:center;
 }
+.profile{
+    margin-top:60px;
+}
 
 .profile-pic{
     width:150px;
@@ -25,4 +28,17 @@ body{
 }
 ul li{
     list-style-type:none;
+}
+
+.card{
+    background-color:#000;
+}
+.alert{
+    position:absolute;
+    bottom:0;
+    width:90%;
+    left:50%;
+    transform:translateX(-50%);
+    background-color:#000;
+ border:1px solid var(--danger);
 }
